@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace Contacts.Core
 {
-    public partial class ContactCollection<T> : ICollection<T>
+    public class ContactCollection<T> : ICollection<T>
         where T : IContact
     {
         private const int _defaultSize = 10;
